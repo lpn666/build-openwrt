@@ -51,3 +51,8 @@ svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/
 #
 # ------------------------------- Other ends -------------------------------
 
+
+echo 'src-git small https://githubfast.com/kenzok8/small-package' >>feeds.conf.default
+echo 'src-git ken https://githubfast.com/kenzok8/openwrt-packages' >>feeds.conf.default
+
+
